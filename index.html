@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Man Face Produces — a small creative studio for 3D models, game props, and digital experiments.">
+  <title>Man Face Produces™ — Creative Studio</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b0b12;--panel:#141420;--text:#f5f3ff;--muted:#aaa7c0;--line:#29283b;--accent:#a78bfa;--accent2:#67e8f9}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#27204a 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:inherit}.wrap{width:min(1080px,calc(100% - 36px));margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px;border-bottom:1px solid var(--line)}.brand{font-weight:850;letter-spacing:-.04em}.brand span{color:var(--accent)}.navlinks{display:flex;gap:18px;flex-wrap:wrap}.navlinks a{text-decoration:none;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:var(--text)}
+    .hero{padding:88px 0 68px;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}.eyebrow{color:var(--accent2);font-size:.78rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(2.8rem,7vw,5.7rem);line-height:.98;letter-spacing:-.075em;margin:16px 0 22px}.hero h1 span{color:var(--accent)}.lead{color:var(--muted);font-size:1.12rem;max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:750;border:1px solid var(--line);transition:transform .18s,background .18s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--accent);color:#160d2b;border-color:transparent}.secondary{background:#171725}.orb{min-height:300px;display:grid;place-items:center;position:relative}.orb:before{content:"";position:absolute;width:min(300px,75vw);aspect-ratio:1;border-radius:42% 58% 61% 39%/43% 40% 60% 57%;background:linear-gradient(135deg,#a78bfa,#67e8f9);filter:blur(1px);opacity:.9;transform:rotate(-14deg)}.orb:after{content:"M";position:relative;display:grid;place-items:center;width:180px;height:180px;border-radius:38px;background:#11111d;border:1px solid #ffffff55;box-shadow:0 25px 80px #0008;font-size:7rem;font-weight:950;letter-spacing:-.1em;color:#f5f3ff;transform:rotate(7deg)}
+    section{padding:54px 0}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:24px}.sectionhead h2{font-size:clamp(1.8rem,4vw,2.7rem);letter-spacing:-.055em;margin:0}.sectionhead p{color:var(--muted);margin:0;max-width:420px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(160deg,#191827,#11111a);border:1px solid var(--line);border-radius:18px;padding:22px;min-height:220px;display:flex;flex-direction:column}.iconbox{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;background:#292344;font-size:1.55rem;margin-bottom:18px}.card h3{margin:0 0 8px;font-size:1.15rem}.card p{margin:0;color:var(--muted);font-size:.95rem}.tag{display:inline-flex;align-self:flex-start;margin-top:auto;padding-top:20px;color:var(--accent2);font-size:.8rem;font-weight:750}.about{display:grid;grid-template-columns:1fr 1fr;gap:28px}.aboutbox{border:1px solid var(--line);border-radius:18px;padding:26px;background:#12121c}.aboutbox h3{margin-top:0}.aboutbox p{color:var(--muted)}.steps{padding-left:20px;color:var(--muted)}.cta{border:1px solid #5c4a88;background:linear-gradient(120deg,#211a39,#131521);border-radius:22px;padding:32px;display:flex;align-items:center;justify-content:space-between;gap:24px}.cta h2{font-size:clamp(1.6rem,4vw,2.5rem);letter-spacing:-.05em;margin:0 0 8px}.cta p{margin:0;color:var(--muted)}footer{padding:30px 0 38px;margin-top:48px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.notice{font-size:.82rem;color:var(--muted);margin-top:14px;max-width:720px}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:58px 0 30px;gap:16px}.orb{min-height:220px;grid-row:1}.orb:before{width:210px}.orb:after{width:130px;height:130px;font-size:5rem}.grid{grid-template-columns:1fr}.about{grid-template-columns:1fr}.sectionhead{display:block}.sectionhead p{margin-top:8px}.cta{align-items:flex-start;flex-direction:column}.nav{align-items:flex-start;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#home" aria-label="Man Face Produces home">MAN FACE <span>PRODUCES™</span></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#work">What I Make</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main>
+    <section class="wrap hero" id="home">
+      <div>
+        <div class="eyebrow">Independent creative studio</div>
+        <h1>Ideas become <span>things.</span></h1>
+        <p class="lead">A growing collection of 3D experiments, game-inspired props, and digital creations. Small projects, big imagination.</p>
+        <div class="actions"><a class="btn primary" href="#work">Explore the work <span aria-hidden="true">↘</span></a><a class="btn secondary" href="https://t.me/ARTIN_B55" target="_blank" rel="noopener noreferrer">✈ Telegram</a></div>
+        <p class="notice">For safety, online messages and any orders should be handled with a parent or guardian.</p>
+      </div>
+      <div class="orb" role="img" aria-label="Abstract Man Face Produces logo artwork"></div>
+    </section>
+    <section class="wrap" id="work">
+      <div class="sectionhead"><h2>What I make</h2><p>Here are the kinds of projects this studio is exploring. More finished work can be added as it is created.</p></div>
+      <div class="grid">
+        <article class="card"><div class="iconbox" aria-hidden="true">🧊</div><h3>3D Models</h3><p>Low-poly objects, cute collectibles, props, and experiments made in Blender.</p><span class="tag">BLENDER / 3D</span></article>
+        <article class="card"><div class="iconbox" aria-hidden="true">🎮</div><h3>Game Assets</h3><p>Ideas for game worlds: accessories, decorations, small props, and playful designs.</p><span class="tag">GAMES / ASSETS</span></article>
+        <article class="card"><div class="iconbox" aria-hidden="true">🎬</div><h3>Digital Projects</h3><p>Gaming edits, creative tests, and other projects made while learning new skills.</p><span class="tag">VIDEO / CREATIVE</span></article>
+      </div>
+    </section>
+    <section class="wrap" id="about">
+      <div class="sectionhead"><h2>Made while learning.</h2><p>Every project is a chance to practise, experiment, and improve.</p></div>
+      <div class="about">
+        <div class="aboutbox"><h3>The studio idea</h3><p>Man Face Produces™ is a small personal creative project focused on making original digital work and sharing the progress along the way.</p></div>
+        <div class="aboutbox"><h3>How projects grow</h3><ol class="steps"><li>Sketch an idea.</li><li>Build a first version.</li><li>Test it and make improvements.</li><li>Share the finished result with permission.</li></ol></div>
+      </div>
+    </section>
+    <section class="wrap" id="contact">
+      <div class="cta"><div><h2>Have a creative idea?</h2><p>For questions about a project, contact should be managed with a parent or guardian.</p></div><a class="btn primary" href="https://t.me/ARTIN_B55" target="_blank" rel="noopener noreferrer">Open Telegram ↗</a></div>
+      <p class="notice">This page is a portfolio, not a payment checkout. Don't send passwords, home addresses, or private information. A parent or guardian should review messages, requests, and any sales.</p>
+    </section>
+  </main>
+  <footer class="wrap"><span>© <span id="year">2026</span> Man Face Produces™</span><span>Made with curiosity ✦</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
